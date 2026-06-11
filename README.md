@@ -1,94 +1,86 @@
 # 🚀 Login System Web
 
-React TypeScript Vite React Router Axios JWT Authentication Responsive UI
-
-## 📌 Sobre o Projeto
-
-Aplicação Front-end desenvolvida em React + TypeScript para consumo da Login System API.
-
-O sistema fornece uma interface moderna e responsiva para autenticação de usuários, recuperação de senha e gerenciamento de sessão utilizando JWT Authentication.
-
-O projeto foi estruturado seguindo boas práticas de organização de código, componentização e escalabilidade.
-
----
-
-## 🧠 Arquitetura do Sistema
-
-O projeto foi dividido em camadas para manter a aplicação organizada e de fácil manutenção.
-
-📦 Pages → Páginas da aplicação
-
-🧩 Components → Componentes reutilizáveis
-
-🔄 Services → Comunicação com a API
-
-🛣️ Routes → Gerenciamento de rotas
-
-📝 Types → Tipagens TypeScript
-
-🎨 Assets → Recursos visuais
-
-⚙️ Hooks → Lógicas reutilizáveis
+![React](https://img.shields.io/badge/REACT-19.0-61DAFB?style=for-the-badge\&logo=react\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-LANGUAGE-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Vite](https://img.shields.io/badge/VITE-BUILD-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)
+![React Router](https://img.shields.io/badge/ROUTER-NAVIGATION-CA4245?style=for-the-badge\&logo=reactrouter\&logoColor=white)
+![Axios](https://img.shields.io/badge/AXIOS-HTTP-5A29E4?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JWT-AUTHENTICATION-000000?style=for-the-badge)
+![RESPONSIVE](https://img.shields.io/badge/UI-RESPONSIVE-success?style=for-the-badge)
+![STATUS](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-orange?style=for-the-badge)
 
 ---
 
-## 🔐 Funcionalidades
+# 📌 Sobre o Projeto
 
-✅ Login de usuários
+Aplicação Front-end desenvolvida em React + TypeScript para consumir a Login System API.
 
-✅ Cadastro de usuários
+O sistema oferece uma interface moderna para autenticação de usuários, gerenciamento de sessão com JWT e recuperação de senha.
 
-✅ Recuperação de senha
-
-✅ Redefinição de senha
-
-✅ JWT Authentication
-
-✅ Persistência de sessão
-
-✅ Logout
-
-✅ Rotas protegidas
-
-✅ Integração com API ASP.NET Core
-
-✅ Consumo de API REST
-
-✅ Tratamento de erros
-
-✅ Interface responsiva
+O projeto foi estruturado com foco em organização, componentização, escalabilidade e boas práticas utilizadas em aplicações profissionais.
 
 ---
 
-## 🧩 Diferenciais Técnicos
+# 🧠 Arquitetura do Sistema
 
-🔥 Componentização com React
+O projeto foi dividido em camadas para manter o código limpo e organizado:
 
-Estrutura baseada em componentes reutilizáveis.
-
-🔥 TypeScript
-
-Maior segurança e previsibilidade durante o desenvolvimento.
-
-🔥 Integração com API REST
-
-Comunicação completa com a Login System API.
-
-🔥 Gerenciamento de Rotas
-
-Controle de acesso para usuários autenticados.
-
-🔥 Persistência de Sessão
-
-Armazenamento seguro do token JWT.
-
-🔥 Estrutura Escalável
-
-Projeto preparado para futuras funcionalidades.
+* 📄 Pages → Telas da aplicação
+* 🧩 Components → Componentes reutilizáveis
+* 🔄 Services → Comunicação com a API
+* 🛣️ Routes → Controle de navegação
+* 📝 Types → Tipagens TypeScript
+* ⚙️ Hooks → Regras reutilizáveis
+* 🎨 Assets → Recursos visuais
 
 ---
 
-## 🧱 Estrutura do Projeto
+# 🔐 Funcionalidades
+
+* ✅ Login de usuários
+* ✅ Cadastro de usuários
+* ✅ JWT Authentication
+* ✅ Persistência de sessão
+* ✅ Logout
+* ✅ Rotas protegidas
+* ✅ Recuperação de senha
+* ✅ Redefinição de senha
+* ✅ Integração com API ASP.NET Core
+* ✅ Consumo de API REST
+* ✅ Tratamento de erros
+* ✅ Interface responsiva
+
+---
+
+# 🧩 Diferenciais Técnicos
+
+### 🔥 Componentização
+
+Separação clara de componentes reutilizáveis para facilitar manutenção e escalabilidade.
+
+### 🔥 TypeScript
+
+Tipagem forte para maior segurança e previsibilidade durante o desenvolvimento.
+
+### 🔥 Integração com API REST
+
+Comunicação completa com a Login System API desenvolvida em ASP.NET Core.
+
+### 🔥 JWT Authentication
+
+Controle de acesso baseado em tokens JWT.
+
+### 🔥 Estrutura Escalável
+
+Projeto preparado para crescimento e inclusão de novas funcionalidades.
+
+### 🔥 Boas Práticas
+
+Organização focada em manutenibilidade, legibilidade e reutilização de código.
+
+---
+
+# 🧱 Estrutura do Projeto
 
 src/
 
@@ -110,25 +102,25 @@ src/
 
 ---
 
-## 📌 Organização das Camadas
+# 📌 Organização das Camadas
 
-📦 Pages → Telas da aplicação
+📄 Pages → Interfaces da aplicação
 
 🧩 Components → Componentes reutilizáveis
 
-🔄 Services → Comunicação com a API
+🔄 Services → Consumo da API
 
-🛣️ Routes → Controle de navegação
+🛣️ Routes → Navegação e proteção de rotas
 
 📝 Types → Tipagens TypeScript
 
-⚙️ Hooks → Regras reutilizáveis
+⚙️ Hooks → Lógica reutilizável
 
 🎨 Assets → Recursos visuais
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
 * React
 * TypeScript
@@ -139,17 +131,17 @@ src/
 
 ---
 
-## 🎯 Objetivos do Projeto
+# 🎯 Objetivos do Projeto
 
-* Aplicar conceitos de Front-end moderno.
-* Consumir APIs REST desenvolvidas em ASP.NET Core.
+* Aplicar conceitos modernos de Front-end.
+* Consumir APIs REST.
 * Implementar autenticação baseada em JWT.
-* Desenvolver uma interface organizada e responsiva.
+* Desenvolver interfaces responsivas.
 * Aplicar boas práticas de arquitetura e componentização.
 
 ---
 
-## 👨‍💻 Autor
+# 👨‍💻 Autor
 
 Felipe De Paula Pereira
 
