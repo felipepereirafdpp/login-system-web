@@ -10,6 +10,7 @@ import { api } from "../api";
 export async function loginUser(dados: IAuthLoginUserParams): Promise<IAuthResponseToken> {
     const resposta = await api.post("/Auth/Login", dados)
     console.log(resposta.status)
+    localStorage.setItem("token",resposta.data.token)
     return resposta.data
 
 }
@@ -17,6 +18,7 @@ export async function loginUser(dados: IAuthLoginUserParams): Promise<IAuthRespo
 export async function registerUser(dados: IAuthRegisterUserParams) : Promise<IAuthResponseToken>{
     const resposta = await api.post("/Auth/Registro", dados);
     console.log(resposta.status)
+    localStorage.setItem("token",resposta.data.token)
     return resposta.data
 }
 
