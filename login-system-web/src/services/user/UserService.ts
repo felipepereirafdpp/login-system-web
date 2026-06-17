@@ -12,7 +12,7 @@ import type { IUserIdParams } from "../../interface/User/IUserIdParams";
     }
 
     export async function listarUsersId(dados:IUserIdParams) :  Promise<IuserParams>{
-        const resposta = await api.get("/Users/" + dados.id);
+        const resposta = await api.get("/Users/id/" + dados.id);
         console.log(resposta.status)
         console.log(resposta.data)
         return resposta.data
@@ -25,7 +25,7 @@ import type { IUserIdParams } from "../../interface/User/IUserIdParams";
     }
 
     export async function updateUsers(dados: IUserUpdateParams) : Promise<IuserParams>{
-        const resposta = await api.put("/Users",dados)
+        const resposta = await api.put("/Users/" + dados.id,dados)
         console.log(resposta.data)
         return resposta.data
     }
