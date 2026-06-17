@@ -1,5 +1,5 @@
     import type { IUserEmailParams } from "../../interface/User/IUserEmailParams";
-    import type { IUserIdParams } from "../../interface/User/IUserIdParams";
+import type { IUserIdParams } from "../../interface/User/IUserIdParams";
     import type { IuserParams } from "../../interface/User/IUserParams";
     import type { IUserUpdateParams } from "../../interface/User/IUserUpdateParams";
 
@@ -14,11 +14,12 @@
     export async function listarUsersId(dados:IUserIdParams) :  Promise<IuserParams>{
         const resposta = await api.get("/Users/" + dados.id);
         console.log(resposta.status)
+        console.log(resposta.data)
         return resposta.data
     }
 
-    export async function listarUsersEmail(dados:IUserEmailParams) : Promise<IuserParams> {
-        const resposta = await api.get("/Users/email/" + dados.email)
+    export async function listarUsersEmail(email:IUserEmailParams) : Promise<IuserParams> {
+        const resposta = await api.get("/Users/email/"+email.email )
         console.log(resposta.status)
         return resposta.data
     }

@@ -16,7 +16,7 @@ export default function AllUserPage() {
     useEffect(() => { buscarDados() }, [])
 
     const numeroRegistro = Users.length
-    
+
 
     return (
         <div>
@@ -27,6 +27,10 @@ export default function AllUserPage() {
                 <div key={user.id}>
                     <p>{user.name}</p>
                     <p>{user.email}</p>
+                    <button>
+                        <Link to={`/upadate-user/${user.id}`}>Veja Detalhes</Link>
+                    </button>
+
                 </div>
             ))}
 

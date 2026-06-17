@@ -3,9 +3,10 @@ import Login from "../pages/LoginPage";
 import ForgotPasswordPage from "../pages/ForgotPasswordPage";
 import RegisterPage from "../pages/RegisterPage";
 import ResetPassword from "../pages/ResetPassword";
-import Dashboard from "../pages/dashboard";
+import Dashboard from "../pages/Dashboard";
 import AllUserPage from "../pages/AllUsersPage";
 import SearchEmailPage from "../pages/SearchEmailPage";
+import UpdateUserPage from "../pages/UpdateUserPage";
 
 
 export default function AppRoutes() {
@@ -18,6 +19,7 @@ export default function AppRoutes() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/user-all" element={<AllUserPage />} />
       <Route path="/searchEmail" element={<SearchEmailPage />} />
+      <Route path="/upadate-user/:id" element={<UpdateUserPage />} />
       
     </Routes>
   );

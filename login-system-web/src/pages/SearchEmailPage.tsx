@@ -2,18 +2,20 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import FuncoesUserTela from "../hooks/useUser";
 import type { IUserEmailParams } from "../interface/User/IUserEmailParams";
-import { IuserParams } from "../interface/User/IUserParams";
+import {type IuserParams } from "../interface/User/IUserParams";
 
 export default function SearchEmail() {
     const [email , setEmail] = useState("")
     const [users , setUsers] = useState<IuserParams>()
     
+    const { CarregarBuscaEmail } = FuncoesUserTela();
+
     async function EfetuarBusca(){
         const dados : IUserEmailParams = {
-            email
+            email : email
         }
 
-        const respota = FuncoesUserTela().CarregarBuscaEmail(dados)
+        const respota = CarregarBuscaEmail(dados)
         const Usuarios = await respota
         setUsers(Usuarios)
         console.log(respota)
@@ -27,7 +29,22 @@ export default function SearchEmail() {
             <button onClick={EfetuarBusca}>Buscar</button>
 
            <div>
-                <p>{users?.name}</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th>Registro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{users?.name}</td>
+                            <td>{users?.email}</td>
+                            <td>{users?.id}</td>
+                        </tr>
+                    </tbody>
+                </table>
            </div>
         </div>
     )
