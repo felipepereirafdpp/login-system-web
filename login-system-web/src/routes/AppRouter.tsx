@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Login from "../pages/LoginPage/LoginPage";
-import ForgotPasswordPage from "../pages/ForgotPasswordPage";
+import ForgotPasswordPage from "../pages/ForgotPassword/ForgotPasswordPage";
 import RegisterPage from "../pages/RegisterPage";
 import ResetPassword from "../pages/ResetPassword";
 import Dashboard from "../pages/Dashboard";
