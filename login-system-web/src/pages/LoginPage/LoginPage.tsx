@@ -53,7 +53,9 @@ export default function LoginPage() {
             )}
 
             <header>
-
+                <div className="campoLogo">
+                    <p>A</p>
+                </div>
                 <div className="cardHeaderTitle">
                     <h2>Login System</h2>
                 </div>
@@ -69,7 +71,7 @@ export default function LoginPage() {
                     <div className="campoForms">
                         <div className="campoInput">
                             <input type="text" placeholder="Email" className={"campoInputElement"} onChange={(e) => setEmail(e.target.value)} disabled={loading} />
-                            <input type="text" placeholder="Senha" className="campoInputElement" onChange={(e) => setPassword(e.target.value)} disabled={loading} />
+                            <input type="password" placeholder="Senha" className="campoInputElement" onChange={(e) => setPassword(e.target.value)} disabled={loading} />
 
                             <div className="campoBotao">
                                 <button className="campoBotaoElement" onClick={EfetuarLogin} disabled={loading}>Entrar</button>

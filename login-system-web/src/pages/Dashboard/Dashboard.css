@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.containerDashboard{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    'nav header'
+    'nav   main'
+    
+    ;
+}
+.headerDashboard{
+    grid-area: header;
+    background-color: white;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav{
+    grid-area: nav;
+    background-color: #1d4ed8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10%;
+    
+}
+.campoParteLogo{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding-top: 10%;
+
+}
+.CampoLogo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    color: white;
+    
+}
+.campoLogoRegistro{
+    border: 1px solid white;
+    height: 65%;
+}
+.campoTitulo{
+    display: flex;
+    flex-direction: column;
+    font-size: 80%;
+    
+}
+.campoOpcoes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+   
+}
+
+.campoOpcoes ul{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    
+}
+
+.campoOpcoes li{
+    height: 8%;
+    border: solid 1px white;
+    background-color: transparent;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5%;
+  
+
+}
+.campoOpcoes ul li a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+     
+}
+

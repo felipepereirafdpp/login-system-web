@@ -7,7 +7,7 @@
 
 
 
-.containerPrincipalForgot {
+.containerPrincipalRegistro {
     width: 100%;
     min-height: 100vh;
     display: grid;
@@ -17,7 +17,7 @@
         "main";
     background: linear-gradient(135deg, #f5f7fa 0%, #e8edf5 100%);
 }
-.HeaderForgot{
+.HeaderRegistro{
      grid-area: header;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
     
    
 }
-.campoLogoForgot{
+.campoLogoRegistro{
     background-color: #1d4ed8;
     width: 3.3%;
     height: 80%;
@@ -44,7 +44,7 @@
     color: white;
     font-weight: 500;
 }
-.campoInformacoesHeader{
+.campoInformacoesRegistro{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,7 +79,7 @@ main {
 
 
 }
-.campBotaoHeader{
+.campBotaoRegistro{
      background: transparent;
     border: 1.5px solid red;
     padding: 5px 15px;
@@ -90,12 +90,12 @@ main {
     flex-direction: row;
 
 }
-.campoPrincipalForgot {
+.campoPrincipalRegistro {
     width: 30%;
     min-width: 320px;
     max-width: 420px;
-    height: 30%;
-    min-height: 280px;
+    height: 40%;
+    min-height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,16 +107,16 @@ main {
 
 }
 
-.campoPrincipalForgot:hover {
+.campoPrincipalRegistro:hover {
     box-shadow: 0 14px 48px rgba(37, 99, 235, 0.12), 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.campoSpanForgot span {
+.campoSpanRegistro span {
     font-weight: 500;
-
+    
 }
 
-.campoFormsForgot {
+.campoFormsRegistro {
     width: 85%;
     height: 85%;
     display: flex;
@@ -125,29 +125,16 @@ main {
     gap: 5%;
 }
 
-.CampoInputForgot {
+.CampoInputRegistro {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 5%;
 }
 
-
-
-.campoMensagemForgot p {
-    background-color: #FEE2E2;
-    color: #DC2626;
-    font-weight: 500;
-    border-radius: 5px;
-    padding-left: 5px;
-    display: flex;
-    justify-content: center;
-    font-size: 0.9rem;
-
-}
-
-.CampoBotao {
+.CampoBotaoRegistro {
     background-color: #ffffff;
     font-size: 25px;
     font-weight: 500;
@@ -162,7 +149,7 @@ main {
 
 }
 
-.loadingOverlayForgot {
+.loadingOverlayRegistro {
     position: fixed;
     top: 0;
     left: 0;
@@ -175,7 +162,7 @@ main {
     z-index: 9999;
 }
 
-.loadingSpinnerForgot {
+.loadingSpinnerRegistro {
     width: 60px;
     height: 60px;
     border: 6px solid rgb(255, 255, 255);
