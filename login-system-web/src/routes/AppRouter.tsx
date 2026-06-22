@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "../pages/LoginPage/LoginPage";
 import ForgotPasswordPage from "../pages/ForgotPassword/ForgotPasswordPage";
 import RegisterPage from "../pages/RegisterUser/RegisterPage";
-import ResetPassword from "../pages/ResetPassword";
+import ResetPassword from "../pages/ResetPassword/ResetPassword";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import AllUserPage from "../pages/AllUsersPage";
 import SearchEmailPage from "../pages/SearchEmailPage";

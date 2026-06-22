@@ -82,7 +82,7 @@ export default function RegisterPage() {
                             <input type="text" className={"campoInputElement"} id="" onChange={(e) => setPassword(e.target.value)} placeholder="Senha" />
 
                             <div className="campoBotaoRegistro">
-                                <button className="campoBotaoElement" onClick={EfetuarRegistro}>Cadastrar</button>
+                                <button className="campoBotaoElement" onClick={EfetuarRegistro}>Criar Conta</button>
                             </div>
                             <div className="campoMensagemTexto">
                                 <p>{message}</p>

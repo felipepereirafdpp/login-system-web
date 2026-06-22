@@ -2,6 +2,12 @@ import { useEffect, useState } from "react";
 import { jwtDecode } from "jwt-decode";
 import { Link } from "react-router-dom";
 import "./Dashboard.css"
+import {
+    Users,
+    MailSearch,
+    LayoutDashboard,
+
+} from "lucide-react";
 
 export default function Dashboard() {
     const [name, setName] = useState<string>("");
@@ -60,14 +66,20 @@ export default function Dashboard() {
                 </div>
                 <div className="campoOpcoes">
                     <ul>
-                        <li> <i className="ti ti-users"></i><Link to="/user-all">Ver Usuários</Link></li>
-                        <li><Link to="/searchEmail">Localizar Usuário</Link></li>
+                        <li> <Users size={20} /> <Link to="/user-all">Ver Usuários</Link></li>
+                        <li> <MailSearch size={20} /> <Link to="/searchEmail">Localizar Usuário</Link></li>
                     </ul>
                 </div>
             </nav>
-
-            <main className="mainDashboard">
             
+            <main className="mainDashboard">
+                <div className="conteudoMain">
+                    <LayoutDashboard size={80}/>
+                    <h2>Painel de Controle</h2>
+                    <p>
+                        Acesse os recursos do sistema através do menu lateral.
+                    </p>
+                </div>
             </main>
 
 

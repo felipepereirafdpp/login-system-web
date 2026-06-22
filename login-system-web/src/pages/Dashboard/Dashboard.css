@@ -10,7 +10,7 @@
     width: 100vw;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 15% 85%;
+    grid-template-rows: 10% 90%;
     grid-template-areas: 
     'nav header'
     'nav   main'
@@ -19,28 +19,31 @@
 }
 .headerDashboard{
     grid-area: header;
-    background-color: white;
+    background-color: #F8FAFC;
     display: flex;
     height: 100%;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+
 }
 nav{
     grid-area: nav;
-    background-color: #1d4ed8;
+    background-color: #FCFCFD;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 10%;
+    border-right: 1px solid rgb(189, 189, 189);
     
 }
 .campoParteLogo{
     display: flex;
     width: 100%;
-    height: 15%;
+    height: 10%;
     padding-top: 10%;
-
+    color: #1d4ed8;
+    
 }
 .CampoLogo{
     width: 100%;
@@ -50,8 +53,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 2%;
-    color: white;
-    
+    color: #1d4ed8;
 }
 .campoLogoRegistro{
     border: 1px solid white;
@@ -62,6 +64,11 @@ nav{
     flex-direction: column;
     font-size: 80%;
     
+}
+.campoTitulo span{
+    color: #1d4ed8;
+    font-weight: 500;
+    font-size: 120%;
 }
 .campoOpcoes{
     height: 100%;
@@ -78,28 +85,43 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 0%;
     align-items: center;
     
 }
 
 .campoOpcoes li{
     height: 8%;
-    border: solid 1px white;
-    background-color: transparent;
     width: 80%;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: start;
     padding-left: 5%;
-  
+    gap: 5%;
+    font-size: 110%;
 
 }
 .campoOpcoes ul li a {
-    color: white;
-    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
     text-decoration: none;
      
 }
-
+.mainDashboard{
+    grid-area: main;
+    background-color: #F8FAFC;
+}
+.conteudoMain{
+    background-color: #FCFCFD;
+    height: 100%;
+    width: 95%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px 5px #e1e2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    font-weight: 500;
+}
