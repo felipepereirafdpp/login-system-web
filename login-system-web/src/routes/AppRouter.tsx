@@ -4,7 +4,7 @@ import ForgotPasswordPage from "../pages/ForgotPassword/ForgotPasswordPage";
 import RegisterPage from "../pages/RegisterUser/RegisterPage";
 import ResetPassword from "../pages/ResetPassword/ResetPassword";
 import Dashboard from "../pages/Dashboard/Dashboard";
-import AllUserPage from "../pages/AllUsersPage";
+import AllUserPage from "../pages/AllUsers/AllUsersPage";
 import SearchEmailPage from "../pages/SearchEmailPage";
 import UpdateUserPage from "../pages/UpdateUserPage";
 

@@ -41,3 +41,20 @@
 .campoBotaoBackElement :active{
     transform: scale(1);
 }
+.btn-details {
+  display: inline-block;
+  background: #eef4fc;
+  color: #2f6fb0;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #dce8f7;
+  transition: background 0.15s ease;
+  white-space: nowrap;
+}
+ 
+.btn-details:hover {
+  background: #dfeaf9;
+}
