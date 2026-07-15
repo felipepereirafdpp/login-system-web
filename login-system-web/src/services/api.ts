@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "http://authentication-api.runasp.net"
+    baseURL: "https://authentication-api.runasp.net"
 });
 
 api.interceptors.request.use((configuracao)=>{
