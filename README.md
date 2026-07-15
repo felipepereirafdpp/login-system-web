@@ -7,7 +7,7 @@
 ![Axios](https://img.shields.io/badge/AXIOS-HTTP-5A29E4?style=for-the-badge)
 ![JWT](https://img.shields.io/badge/JWT-AUTHENTICATION-000000?style=for-the-badge)
 ![RESPONSIVE](https://img.shields.io/badge/UI-RESPONSIVE-success?style=for-the-badge)
-![STATUS](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ---
 
