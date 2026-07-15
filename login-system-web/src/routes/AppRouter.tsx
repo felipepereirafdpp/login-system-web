@@ -5,8 +5,8 @@ import RegisterPage from "../pages/RegisterUser/RegisterPage";
 import ResetPassword from "../pages/ResetPassword/ResetPassword";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import AllUserPage from "../pages/AllUsers/AllUsersPage";
-import SearchEmailPage from "../pages/SearchEmailPage";
-import UpdateUserPage from "../pages/UpdateUserPage";
+import SearchEmailPage from "../pages/SearchEmail/SearchEmailPage";
+import UpdateUserPage from "../pages/UpdateUser/UpdateUserPage";
 
 
 export default function AppRoutes() {

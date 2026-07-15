@@ -58,3 +58,34 @@
 .btn-details:hover {
   background: #dfeaf9;
 }
+
+    
+.campoBotaoElementSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 120px;
+    max-width: 420px;
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.2s ease;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+@media (max-width: 768px) {
+    .campoBotaoElementSearch{
+        width: 100%;
+        max-width: 100%;
+    }
+}
