@@ -182,3 +182,20 @@ main {
         transform: rotate(360deg);
     }
 }
+@media (max-width: 768px) {
+
+    .campoInput {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+}
+
+.campoBotao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+}
