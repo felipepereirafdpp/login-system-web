@@ -30,7 +30,8 @@ header {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
     gap: 10px;
 }
-.campoLogo{
+
+.campoLogo {
     background-color: #1d4ed8;
     width: 3%;
     min-width: 30px;
@@ -64,7 +65,7 @@ main {
     align-items: center;
     background-color: #ffffff;
     border: 1px solid #e5e7eb;
-    border-radius:0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
     box-shadow: 0 10px 40px rgba(37, 99, 235, 0.08);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 
@@ -120,9 +121,9 @@ main {
     display: flex;
     justify-content: center;
     font-size: 0.9rem;
-      
+
 }
-    
+
 
 .campoEsqueceuSenha {
     width: 100%;
@@ -182,20 +183,15 @@ main {
         transform: rotate(360deg);
     }
 }
+
 @media (max-width: 768px) {
 
     .campoInput {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15%;
-}
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30%;
+    }
 
-.campoBotao {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; 
-}
+    
 }
