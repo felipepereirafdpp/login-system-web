@@ -207,7 +207,7 @@ main {
 
     .CampoTitle {
         width: calc(120% - 2px);
-        max-width: 400px;
+        max-width: 410px;
         background-color: #2563eb;
         color: #ffffff;
         font-weight: 700;
