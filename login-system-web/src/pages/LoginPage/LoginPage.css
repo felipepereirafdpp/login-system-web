@@ -198,6 +198,7 @@ main {
     main {
         flex-direction: column;
         padding: 5%;
+        height: 60%;
         align-items: center;
         justify-content: flex-start;
         padding-top: 8%;
