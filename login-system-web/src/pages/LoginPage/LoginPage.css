@@ -203,16 +203,19 @@ main {
         padding-top: 8%;
     }
 
-    .CampoTitle {
-        width: 100%;
-        max-width: 480px;
+      .CampoTitle {
+        width: calc(100% - 2px); 
+        max-width: 400px;
+        margin: 0 auto -12px auto; 
         background-color: #2563eb;
         color: #ffffff;
         font-weight: 700;
         font-size: 1.1rem;
         text-align: center;
         padding: 14px 0;
-        border-radius: 20px 20px 0 0;
+        border-radius: 16px 16px 0 0;
+        position: relative;
+        z-index: 1; 
     }
 
     .campoPrincipal {
@@ -222,6 +225,8 @@ main {
         height: auto;
         min-height: unset;
         padding: 24px 0;
+        position: relative;
+        z-index: 2; 
     }
 
    
