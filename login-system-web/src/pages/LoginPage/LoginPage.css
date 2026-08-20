@@ -185,14 +185,17 @@ main {
 }
 
 @media (max-width: 768px) {
-
+    .campoForms{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+    }
     .campoInput {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         gap: 20%;
-        
+        margin-top: 20px;
     }
 
     
