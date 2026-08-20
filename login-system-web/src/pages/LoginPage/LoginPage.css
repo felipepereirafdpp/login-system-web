@@ -198,7 +198,6 @@ main {
     main {
         flex-direction: column;
         padding: 5%;
-        height: 60%;
         align-items: center;
         justify-content: flex-start;
         padding-top: 8%;
@@ -206,7 +205,6 @@ main {
 
     .CampoTitle {
         width: 100%;
-        min-width: unset;
         max-width: 400px;
         background-color: #2563eb;
         color: #ffffff;
@@ -226,21 +224,49 @@ main {
         padding: 24px 0;
     }
 
+    /* --- Reset forçado do fluxo interno, anulando qualquer position/margin/transform vindo de input.css e botao.css --- */
     .campoForms {
-        gap: 24px;
+        height: auto !important;
+        justify-content: flex-start !important;
+        gap: 20px !important;
     }
 
     .campoInput {
-        gap: 16px;
+        gap: 14px !important;
+    }
+
+    .campoBotao {
+        position: static !important;
+        transform: none !important;
+        margin: 8px 0 0 0 !important;
+    }
+
+    .campoBotaoElement {
+        position: static !important;
+        transform: none !important;
+        margin: 0 !important;
+    }
+
+    .campoInputElement {
+        position: static !important;
+        transform: none !important;
+        margin: 0 !important;
     }
 
     .campoText {
-        height: auto;
+        position: static !important;
+        transform: none !important;
+        height: auto !important;
+        margin-top: 16px !important;
         gap: 8px;
     }
 
     .campoInformacoes {
-        gap: 8px;
+        position: static !important;
+    }
+
+    .campoMensagem {
+        position: static !important;
     }
 }
 
