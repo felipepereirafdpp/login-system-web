@@ -183,10 +183,6 @@ main {
     }
 }
 @media (max-width: 768px) {
-    .containerPrincipal {
-        grid-template-rows: 60px 1fr;
-    }
-
     header {
         padding-left: 5%;
         padding-right: 5%;
@@ -200,9 +196,23 @@ main {
     }
 
     main {
+        flex-direction: column;
         padding: 5%;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: flex-start;
         padding-top: 8%;
+    }
+
+    .CampoTitle {
+        width: 100%;
+        max-width: 400px;
+        background-color: #2563eb;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 14px 0;
+        border-radius: 20px 20px 0 0;
     }
 
     .campoPrincipal {
@@ -215,11 +225,11 @@ main {
     }
 
     .campoForms {
-        gap: 24px; /* fixo em vez de 20% */
+        gap: 24px;
     }
 
     .campoInput {
-        gap: 16px; /* fixo em vez de 15% */
+        gap: 16px;
     }
 
     .campoText {
@@ -233,7 +243,8 @@ main {
 }
 
 @media (max-width: 400px) {
-    .campoPrincipal {
+    .campoPrincipal,
+    .CampoTitle {
         width: 92%;
     }
 }
