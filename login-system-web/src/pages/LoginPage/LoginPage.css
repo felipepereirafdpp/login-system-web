@@ -205,7 +205,7 @@ main {
 
     .CampoTitle {
         width: 100%;
-        max-width: 400px;
+        max-width: 480px;
         background-color: #2563eb;
         color: #ffffff;
         font-weight: 700;
@@ -224,7 +224,7 @@ main {
         padding: 24px 0;
     }
 
-    /* --- Reset forçado do fluxo interno, anulando qualquer position/margin/transform vindo de input.css e botao.css --- */
+   
     .campoForms {
         height: auto !important;
         justify-content: flex-start !important;
