@@ -206,8 +206,9 @@ main {
     }
 
     .CampoTitle {
-        width: 1200%;
-        max-width: 450px;
+        width: calc(100% + 20px);
+        max-width: 420px;
+        margin: 0 auto -30px auto;
         background-color: #2563eb;
         color: #ffffff;
         font-weight: 700;
@@ -217,6 +218,7 @@ main {
         border-radius: 16px 16px 0 0;
         position: relative;
         z-index: 1;
+        box-shadow: none;
     }
 
     .campoPrincipal {
